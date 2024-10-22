@@ -1,12 +1,12 @@
 # USArt
 
 This repository contains USArt code for the paper: 
-> G. Kanli, D. Perlo, S. Boudissa, Radovan Jiˇr´ı  and O. Keunen.
+> G. Kanli, D. Perlo, S. Boudissa, R. Jirik  and O. Keunen.
 > "Simultaneous Image Quality Improvement and Artefacts Correction in Accelerated MRI", 2024 MICCAI Workshop on Deep Generative Models, Marrakech, Morocco, 2024 (will be updated once paper published in proceedings ).
 
 
 
-This paper was accepted to the 27th MICCAI Workshop on Deep Generative Models . You can find the poster presented to the [MICCAI Workshop]() conference under [*Poster_MICCAI-WS_.pdf*](https://github.com/TransRad/MRArt/blob/main/Poster_ISBI24_542.pdf).
+This paper was accepted to the **27th MICCAI Workshop on Deep Generative Models** . You can find the poster presented to the [MICCAI Workshop]() conference under [*Poster_MICCAI-WS_.pdf*](https://github.com/TransRad/MRArt/blob/main/Poster_ISBI24_542.pdf).
 
 ## Description
 We propose a library named **MRArt**, for MRI Artefacts, that simulates realistic primary artefacts by manipulating the k-space signal, using standard image processing techniques.
