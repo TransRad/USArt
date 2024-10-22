@@ -6,7 +6,7 @@ This repository contains USArt code for the paper:
 
 
 
-This paper was accepted to the **27th MICCAI Workshop on Deep Generative Models** . You can find the poster presented to the [MICCAI Workshop]() conference under [*Poster_MICCAI-WS_.pdf*](https://github.com/TransRad/MRArt/blob/main/Poster_ISBI24_542.pdf).
+This paper was accepted to the **27th MICCAI Workshop on Deep Generative Models** . You can find the poster presented to the [MICCAI Workshop](https://conferences.miccai.org/2024/en/workshops.asp) conference under [*Poster_MICCAI-WS_.pdf*](https://github.com/TransRad/USArt/blob/main/Poster_MLMI24_60.pdf).
 
 ## Description
 We propose a library named **MRArt**, for MRI Artefacts, that simulates realistic primary artefacts by manipulating the k-space signal, using standard image processing techniques.
