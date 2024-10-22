@@ -18,7 +18,7 @@ MRArt focuses on three degradations commonly encountered in anatomical images:
 Each of the above degradation are generated with varying levels from low to severe.
 The image below illustrates the image domain and the corresponding k-space domain of each degradation types.
 
-#![Alt text](image/img_kspace_ind10_level3.png)
+![Alt text](pre.PNG)
 
 ## Getting started
 ### Requirements
