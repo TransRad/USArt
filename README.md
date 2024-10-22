@@ -26,7 +26,7 @@ In order to use the library you need to install the following packages:
 - pip install skimage
 
 
-#You can find instructions on loading the data and utilizing the MRArt library in the Jupyter notebook titled **Examples.ipynb**.
+You can find instructions on loading the data and utilizing the MRArt library in the Jupyter notebook titled **Examples.ipynb**.
 
 ## Support
 If you have any questions, feel free to reach out to our support team at imaging@lih.lu.
