@@ -9,7 +9,7 @@ This repository contains USArt code for the paper:
 This paper was accepted to the **27th MICCAI Workshop on Deep Generative Models** . You can find the poster presented to the [MICCAI Workshop](https://conferences.miccai.org/2024/en/workshops.asp) conference under [*Poster_MLMI24_60.pdf*](https://github.com/TransRad/USArt/blob/main/Poster_MLMI24_60.pdf).
 
 ## Description
-The preprocessing pipeline and USArt. A) Artifacts and noise are added to full k-space, before under-sampling is performed using specific masks and acceleration
+The preprocessing pipeline and USArt. A) Artifacts and noise are added to full k-space using our [**MRArt** library](https://github.com/TransRad/MRArt), before under-sampling is performed using specific masks and acceleration
 factors. This degraded k-space dataset is used as input for the USArt model. B) USArt utilizes two U-Net based components: K-net and I-net. K-net operates in the k-space
 domain to fill missing lines, and its output is transformed to the image domain via an inverse Fourier Transform. I-net then refines this output, focusing on artifacts correc-
 tion and image consistency.
