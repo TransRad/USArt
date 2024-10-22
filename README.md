@@ -9,15 +9,10 @@ This repository contains USArt code for the paper:
 This paper was accepted to the **27th MICCAI Workshop on Deep Generative Models** . You can find the poster presented to the [MICCAI Workshop](https://conferences.miccai.org/2024/en/workshops.asp) conference under [*Poster_MLMI24_60.pdf*](https://github.com/TransRad/USArt/blob/main/Poster_MLMI24_60.pdf).
 
 ## Description
-We propose a library named **MRArt**, for MRI Artefacts, that simulates realistic primary artefacts by manipulating the k-space signal, using standard image processing techniques.
-MRArt focuses on three degradations commonly encountered in anatomical images:
-- Gaussian noise
-- Blurriness effect
-- Motion artefact
-
-Each of the above degradation are generated with varying levels from low to severe.
-The image below illustrates the image domain and the corresponding k-space domain of each degradation types.
-
+The preprocessing pipeline and USArt. A) Artifacts and noise are added to full k-space, before under-sampling is performed using specific masks and acceleration
+factors. This degraded k-space dataset is used as input for the USArt model. B) USArt utilizes two U-Net based components: K-net and I-net. K-net operates in the k-space
+domain to fill missing lines, and its output is transformed to the image domain via an inverse Fourier Transform. I-net then refines this output, focusing on artifacts correc-
+tion and image consistency.
 ![Alt text](pre.PNG)
 
 ## Getting started
@@ -31,7 +26,7 @@ In order to use the library you need to install the following packages:
 - pip install skimage
 
 
-You can find instructions on loading the data and utilizing the MRArt library in the Jupyter notebook titled **Examples.ipynb**.
+#You can find instructions on loading the data and utilizing the MRArt library in the Jupyter notebook titled **Examples.ipynb**.
 
 ## Support
 If you have any questions, feel free to reach out to our support team at imaging@lih.lu.
