@@ -32,7 +32,7 @@ You can find instructions on loading the data and utilizing the MRArt library in
 If you have any questions, feel free to reach out to our support team at imaging@lih.lu.
 
 ## Roadmap
-We plan to introduce a 3D version of the library in the future, featuring additional degradation types.
+Fututes work ...
 
 ## Authors
 Georgia KANLI, Daniele PERLO, Selma BOUDISSA, Radovan JIRIK and Olivier KEUNEN.
