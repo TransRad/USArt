@@ -4,7 +4,7 @@ This repository contains USArt code for the paper:
 > G. Kanli, D. Perlo, S. Boudissa, R. Jirik  and O. Keunen.
 > "Simultaneous Image Quality Improvement and Artefacts Correction in Accelerated MRI", 2024 MICCAI Workshop on Deep Generative Models, Marrakech, Morocco, 2024 (will be updated once paper published in proceedings ).
 
-This paper was accepted to the **27th MICCAI Workshop on Deep Generative Models** . You can find the poster presented to the [MICCAI Workshop](https://conferences.miccai.org/2024/en/workshops.asp) conference under [*Poster_MLMI24_60.pdf*](https://github.com/TransRad/USArt/blob/main/Poster_MLMI24_60.pdf).
+This paper was accepted to the **27th MICCAI Workshop on Deep Generative Models** . You can find the poster presented to the [MICCAI Workshop](https://conferences.miccai.org/2024/en/workshops.asp) conference under [*Poster_MLMI24_60.pdf*](https://sites.google.com/view/mlmi2024/poster-and-video/p-28?authuser=0).
 
 ## Description
 The preprocessing pipeline and USArt. A) Artifacts and noise are added to full k-space using our [**MRArt** library](https://github.com/TransRad/MRArt), before under-sampling is performed using specific masks and acceleration factors. This degraded k-space dataset is used as input for the USArt model. B) USArt utilizes two U-Net based components: K-net and I-net. K-net operates in the k-space domain to fill missing lines, and its output is transformed to the image domain via an inverse Fourier Transform. I-net then refines this output, focusing on artifacts correction and image consistency.
