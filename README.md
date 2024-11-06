@@ -17,7 +17,7 @@ Performance of our USArt model with various under-sampling strategies, accelerat
 
 Example of USArt: You can predict the USArt model on loading your in the Jupyter notebook titled **USArtPediction.ipynb**
 
-![Alt text](pic/output.PNG)
+![Alt text](pic/output.png)
 
 ## Getting started
 ### Requirements
