@@ -1,8 +1,8 @@
 # USArt
 
 This repository contains USArt code for the paper: 
-> G. Kanli, D. Perlo, S. Boudissa, R. Jirik  and O. Keunen.
-> "Simultaneous Image Quality Improvement and Artefacts Correction in Accelerated MRI", 2024 MICCAI Workshop on Deep Generative Models, Marrakech, Morocco, 2024 (will be updated once paper published in proceedings ).
+> Kanli, G., Perlo, D., Boudissa, S., Jiřík, R., Keunen, O. (2025).
+> Simultaneous Image Quality Improvement and Artefacts Correction in Accelerated MRI. In: Xu, X., Cui, Z., Rekik, I., Ouyang, X., Sun, K. (eds) Machine Learning in Medical Imaging. MLMI 2024. Lecture Notes in Computer Science, vol 15241. Springer, Cham. [https://doi.org/10.1007/978-3-031-73284-3_23](https://doi.org/10.1007/978-3-031-73284-3_23)
 
 This paper was accepted to the **27th MICCAI Workshop on Deep Generative Models** . You can find the poster presented to the [MICCAI Workshop](https://conferences.miccai.org/2024/en/workshops.asp) conference under [*Poster_MLMI24_60.pdf*](https://sites.google.com/view/mlmi2024/poster-and-video/p-28?authuser=0).
 
@@ -53,7 +53,7 @@ Georgia KANLI, Daniele PERLO, Selma BOUDISSA, Radovan JIRIK and Olivier KEUNEN.
 ## Citation 
 If you find **USArt** useful in your research, please use the following for citation.
 
-G. Kanli, D. Perlo, S. Boudissa, Radovan Jirik  and O. Keunen. "Simultaneous Image Quality Improvement and Artefacts Correction in Accelerated MRI", 2024 MICCAI Workshop on Deep Generative Models, Marrakech, Morocco, 2024 (will be updated once paper published in proceedings )
-
+> Kanli, G., Perlo, D., Boudissa, S., Jiřík, R., Keunen, O. (2025).
+> Simultaneous Image Quality Improvement and Artefacts Correction in Accelerated MRI. In: Xu, X., Cui, Z., Rekik, I., Ouyang, X., Sun, K. (eds) Machine Learning in Medical Imaging. MLMI 2024. Lecture Notes in Computer Science, vol 15241. Springer, Cham. [https://doi.org/10.1007/978-3-031-73284-3_23](https://doi.org/10.1007/978-3-031-73284-3_23)
 
 
